@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="keywords" content="XHTML, JavaScript"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="Style.css"/>
+    <title>شركة عقاراتـنا</title>
+    <!-- Include Jquery -->
+    <script src="./jquery.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <section class="section">
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">عقاراتـ<span class="color" style="color: #ff9900">ـنــا</span></a>
+            </div>
+            <div class="navbar-end">
+              <a href="index.html" class="navbar-item"> الصفحة الرئيسية </a>
+              <a href="AboutUs.html" class="navbar-item"> من نحن </a>
+              <a href="Properties.html" class="navbar-item" id="active"> عقاراتنا </a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="hero-body">
+        <div class="container">
+          <table>
+            <tr>
+              <th>المدينة</th>
+              <th>تفاصيل</th>
+              <th>الإيجار الشهري</th>
+              <th>إظهار التفاصيل</th>
+              <th>اختيار</th>
+            </tr>
+            <tr class="visible">
+              <td>دمشق</td>
+              <td>شقة غرفة وصالة 100 م</td>
+              <td>500 ألف ل.س</td>
+              <td><button class="button" id="show 1">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:المالكي</p>
+                <p class="floatitem1">ديكور أسود</p>
+                <p class="floatitem1">الطابق الثاني</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">بلكون مساحة 15م</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/livingroom1.jpg" alt="livingroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bedroom1.jpg" alt="bedroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bathroom1.jpg" alt="bathroom" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>حمص</td>
+              <td>محل حلاقة 70 م</td>
+              <td>300 ألف ل.س</td>
+              <td><button class="button" id="show 2">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة: حمص</p>
+                <p class="floatitem1">حلاق رجالي</p>
+                <p class="floatitem1">ديكور أسود</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">متوفر أجار</p>
+                <p class="floatitem1">كامل مع عدة الحلاقة</p>
+                <img src="img/barber1.jpg" alt="barber" width="250" height="250" class="floatimg"/>
+                <img src="img/barber2.jpg" alt="barber" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>دمشق</td>
+              <td>شقة غرفتين ومطبخ وصالة 120 م</td>
+              <td>550 ألف ل.س</td>
+              <td><button class="button" id="show 3">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:أبو رمانة</p>
+                <p class="floatitem1">ديكور ترابي</p>
+                <p class="floatitem1">الطابق الثالث</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">بلكون مساحة 10م</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/livingroom3.jpg" alt="livingroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bedroom3.jpg" alt="bedroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bathroom3.jpg" alt="bathroom" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>دمشق</td>
+              <td>بيت عربي 150 م</td>
+              <td>200 مليون ل.س</td>
+              <td><button class="button" id="show 4">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة: باب شرقي</p>
+                <p class="floatitem1">بيت عربي قديم</p>
+                <p class="floatitem1">الطابق الأرضي</p>
+                <p class="floatitem1">حكم محكمة</p>
+                <p class="floatitem1">نوفرة</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/arab-house3.jpg" alt="arabic-house" width="250" height="250" class="floatimg"/>
+                <img src="img/arab-house4.jpg" alt="arabic-house" width="250" height="250" class="floatimg"/>
+                <img src="img/arab-house5.jpg" alt="arabic-house" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>حلب</td>
+              <td>شقة صغيرة 80 م</td>
+              <td>300 ألف ل.س</td>
+              <td><button class="button" id="show 5">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:حلب</p>
+                <p class="floatitem1">ديكور بسيط</p>
+                <p class="floatitem1">الطابق الأول</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">بلكون صغيرة</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/livingroom5.jpg" alt="livingroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bedroom5.jpg" alt="bedroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bathroom5.jpg" alt="bathroom" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>اللاذقية</td>
+              <td>شاليه عالبحر 150 م</td>
+              <td>100 مليون ل.س</td>
+              <td><button class="button" id="show 6">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:الكورنيش الجنوبي</p>
+                <p class="floatitem1">فيلا ومنتفعاتها</p>
+                <p class="floatitem1">طابقين وسطح</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">بلكون مساحة 15م</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/sea.jpg" alt="sea" width="250" height="250" class="floatimg"/>
+                <img src="img/pool5.jpg" alt="pool" width="250" height="250" class="floatimg"/>
+                <img src="img/villa.jpg" alt="villa" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>دمشق</td>
+              <td>بناية 4 طوابق</td>
+              <td>600 مليون ل.س</td>
+              <td><button class="button" id="show 7">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:جرمانا</p>
+                <p class="floatitem1">كاملة</p>
+                <p class="floatitem1">عمار حديث</p>
+                <p class="floatitem1">الملكية حكم محكمة</p>
+                <p class="floatitem1">متوفر معها أرض للبيع</p>
+                <p class="floatitem1">فارغة</p>
+                <img src="img/build1.jpg" alt="build" width="250" height="250" class="floatimg"/>
+                <img src="img/build2.jpg" alt="build" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>دمشق</td>
+              <td>محل ملابس 100 م</td>
+              <td>750 ألف ل.س</td>
+              <td><button class="button" id="show 8">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة: دويلعة</p>
+                <p class="floatitem1">مساحة 100 م</p>
+                <p class="floatitem1">للرجال والنساء</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">متوفر للاجار</p>
+                <p class="floatitem1">ركن أبو عطاف</p>
+                <img src="img/store1.jpg" alt="store" width="250" height="250" class="floatimg"/>
+                <img src="img/store2.jpg" alt="store" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>درعا</td>
+              <td>محل 50 م</td>
+              <td>150 ألف ل.س</td>
+              <td><button class="button" id="show 9">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة: الصنمين</p>
+                <p class="floatitem1">مع الأغراض</p>
+                <p class="floatitem1">كامل</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">متوفر بيع أو أجار</p>
+                <p class="floatitem1"></p>
+                <img src="img/shop1.jpg" alt="shop1" width="250" height="250" class="floatimg"/>
+                <img src="img/shop2.jpg" alt="shop2" width="250" height="250" class="floatimg"/>
+                <img src="img/shop3.jpg" alt="shop3" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>دمشق</td>
+              <td>فيلا + حديقة + مسبح 300 م</td>
+              <td>220 مليون ل.س</td>
+              <td><button class="button" id="show 10">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:حي التربة</p>
+                <p class="floatitem1">مساحة كبيرة</p>
+                <p class="floatitem1">إطلالة جميلة</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">مسبحين للصغار والكبار</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/garden1.jpg" alt="garden" width="250" height="250" class="floatimg"/>
+                <img src="img/pool3.jpg" alt="villa" width="250" height="250" class="floatimg"/>
+                <img src="img/pool4.jpg" alt="pool" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+            <tr class="visible">
+              <td>طرطوس</td>
+              <td>شقة 120 م</td>
+              <td>500 ألف ل.س</td>
+              <td><button class="button" id="show 11">عرض</button></td>
+              <td><input type="radio" name="property" class="property"/></td>
+            </tr>
+            <tr class="invisible">
+              <td colspan="5">
+                <p class="floatitem1">المنطقة:الرمال</p>
+                <p class="floatitem1">ديكور أجنبي</p>
+                <p class="floatitem1">شاشة كبيرة</p>
+                <p class="floatitem1">الملكية طابو</p>
+                <p class="floatitem1">بلكون مساحة 10م</p>
+                <p class="floatitem1">مفروش</p>
+                <img src="img/livingroom4.jpg" alt="livingroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bedroom4.jpg" alt="bedroom" width="250" height="250" class="floatimg"/>
+                <img src="img/bathroom4.jpg" alt="bathroom" width="250" height="250" class="floatimg"/>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <input type="button" value="متابعة" class="button continue" onclick="myFunction()"/>
+        </div>
+        <div class="container">
+          <div class="card-container">
+            <form action="" method="post" id="myForm">
+              <div class="inputBox">
+                <span class="data">"الرجاء إدخال معلوماتك الشخصية"</span>
+              </div>
+              <div class="inputBox">
+                <span class="data">الإسم الكامل:</span>
+                <input type="text" name="full-name" id="full-name" class="card-number-input" required/>
+              </div>
+              <div class="inputBox">
+                <span class="data">رقم الموبايل:</span>
+                <input type="text" class="card-number-input" name="phone-number" id="phone-number" required/>
+              </div>
+              <div class="inputBox">
+                <span class="data">الإيميل:</span>
+                <input type="email" class="email-input" name="email" id="email" required/>
+              </div>
+              <div class="inputBox">
+                <span class="data">الرقم الوطني:</span>
+                <input type="text" id="national-number" name="national-number" class="national-input" required/>
+              </div>
+              <span class="data">الرجاء إدخال تاريخ الميلاد:</span>
+              <div class="flexbox">
+                  <div class="inputBox">
+                      <span>اليوم</span>
+                      <input type="text" id="day" maxlength="2" class="date-input" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>الشهر</span>
+                      <input type="text" id="month" maxlength="2" class="date-input" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>السنة</span>
+                      <input type="text" id="year" maxlength="4" class="date-input" required>
+                  </div>
+              </div>
+              <div>
+                <input type="submit" value="إرسال" class="button" id="click"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <footer class="footer">
+          <div class="footer-logo">
+            <a class="footer-item">
+              <span class="logo">عقارات<span class="color">ـنا</span> </span>
+            </a>
+          </div>
+          <div class="column">
+            <div class="footer-header">
+              <h3 class="column">روابط هامة</h3>
+              <ul>
+                <li class="hello">
+                  <a class="hello" href="index.html"> الرئيسية </a>
+                </li>
+                <li class="hello">
+                  <a class="hello" href="AboutUs.html"> من نحن </a>
+                </li>
+                <li class="hello">
+                  <a class="hello" href="AboutUs.html#title"> تواصل معنا </a>
+                </li>
+                <li class="hello">
+                  <a class="hello"> سياسة الخصوصية </a>
+                </li>
+                <li class="hello">
+                  <a class="hello"> الشروط والأحكام </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-header">
+              <h3 class="column">أنواع العقارات</h3>
+              <ul>
+                <li class="hello">
+                  <a class="hello" href="Properties.html"> بيوت </a>
+                </li>
+                <li class="hello">
+                  <a class="hello" href="Properties.html"> محلات </a>
+                </li>
+                <li class="hello">
+                  <a class="hello" href="Properties.html"> عمارة </a>
+                </li>
+                <li class="hello">
+                  <a class="hello" href="Properties.html"> شاليه عالبحر </a>
+                </li>
+                <li class="hello">
+                  <a class="hello" href="Properties.html"> فيلات </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-header">
+              <h3 class="column">الغاية</h3>
+              <ul>
+                <li class="hello">
+                  <a class="hello"> أجار </a>
+                </li>
+                <li class="hello">
+                  <a class="hello"> بيع </a>
+                </li>
+                <li class="hello">
+                  <a class="hello"> شراء </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="footer-header">
+              <h3 class="column">تابعونا للمزيد</h3>
+              <li class="hello">
+                <a class="hello">
+                  جميع الحقوق محفوظة لموقع شركة عقاراتنا 2024
+                </a>
+              </li>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script src="myFunctions.js" type="text/javascript"></script>
+  </body>
+</html>
